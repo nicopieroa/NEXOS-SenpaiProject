@@ -6,4 +6,4 @@ Primer proyecto integrador para el bootcamp de Senpai. Este consistió en intent
 
 # Puedes visualizarlo en el siguiente link:
 
-- https://nicopieroa.github.io/NEXOS-SenpaiProject/ -
+- https://nicopieroa.github.io/NEXOS-SenpaiProject/
