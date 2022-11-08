@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>NEXOS</title>
+  </head>
+  <body>
+    <div id="home" class="mainContainer">
+      <nav id="navBar">
+        <div class="logoUlContainer">
+          <a href="#home">
+            <img
+              src="./Materiales/logo.png"
+              alt="Logo de Nexos"
+              class="navLogo"
+          /></a>
+          <ul>
+            <li>
+              <a href="#weSection"><b>Nosotros</b></a>
+            </li>
+            <li>
+              <a href="#newsSection"><b>Noticias</b></a>
+            </li>
+            <li>
+              <a href="#helpSection"><b>Ayuda</b></a>
+            </li>
+          </ul>
+        </div>
+        <button id="buttonLoggin" class="inButton">
+          <span>INGRESAR</span>
+        </button>
+      </nav>
+
+      <!-- The Modal Beagin -->
+
+      <div id="theModal" class="modalContainer">
+        <div class="modalContent">
+          <div class="modalImgContainer">
+            <img src="./Materiales/imagen-modal.JPG" alt="Manos entrelzadas" />
+          </div>
+
+          <div class="modalNavSideContainer">
+            <div class="modalNavSide-navBar">
+              <button
+                id="backToHomeButoon"
+                class="modalNavSide-navBar-backButton"
+              >
+                <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                <span>volver atrás</span>
+              </button>
+              <button
+                id="buttonCloseModal"
+                class="modalNavSide-navBar-closeButton"
+              >
+                <img src="./Materiales/closeButton.svg" alt="Cruz" />
+              </button>
+            </div>
+
+            <h2><b>REGISTRAR</b></h2>
+
+            <div class="modalNavSide-whoLoginCointainer">
+              <div
+                class="whoLoginCointainer-miEmpresaMiOrganizacionImgs whoLoginCointainer-miEmpresaColor"
+              >
+                <img src="./Materiales/icono-maletin.png" alt="Maletín" />
+              </div>
+              <div class="whoLoginCointainer-miEmpresaMiOrganizacionInfo">
+                <h3 class="whoLoginCointainer-miEmpresaColor2">MI EMPRESA</h3>
+                <p>Breve explicación a lo que nos referimos.</p>
+              </div>
+              <button id="logginMyCompanyButton">
+                <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+              </button>
+            </div>
+
+            <div class="modalNavSide-whoLoginCointainer">
+              <div
+                class="whoLoginCointainer-miEmpresaMiOrganizacionImgs whoLoginCointainer-miOrganizacionColor"
+              >
+                <img src="./Materiales/icono-persona.png" alt="Persona" />
+              </div>
+              <div class="whoLoginCointainer-miEmpresaMiOrganizacionInfo">
+                <h3 class="whoLoginCointainer-miOrganizacionColor2">
+                  MI ORGANIZACIÓN
+                </h3>
+                <p>Estamos para ayudarlos a tener éxito.</p>
+              </div>
+              <button id="logginMyOrganizationButton">
+                <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Modal End -->
+
+      <header>
+        <img
+          src="./Materiales/manos.jpg"
+          alt="Manos unidas"
+          class="headerImg"
+        />
+        <div class="titleTextContainer">
+          <h1>¡Actúa para cambiar el mundo!</h1>
+          <p>
+            Fomentamos el vínculo entre empresas y organizaciones civiles para
+            generar un impacto positivo en la sociedad.
+          </p>
+          <p>
+            Descubrí diferentes maneras de involucrar tu organización con la
+            sociedad.
+          </p>
+        </div>
+      </header>
+
+      <div id="weSection" class="solutionsContainer">
+        <div class="solutionsSubContainer">
+          <img
+            src="./Materiales/oficina.png"
+            alt="Grupo de personas en una oficina"
+            class="solutionsSubContainerImg"
+          />
+          <div class="solutionsSubContainerText">
+            <h2>Soluciones para empresas</h2>
+            <div class="solutionsSubContainerText-pContainer">
+              <p>
+                Generamos un medio para que las empresas se involucren en
+                actividades de responsabilidad social.
+              </p>
+              <p>
+                ¡Creá un grupo de voluntarios en tu organización y se parte del
+                cambio!.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="solutionsSubContainer">
+          <div class="solutionsSubContainerText">
+            <h2>Soluciones para organizaciones</h2>
+            <div class="solutionsSubContainerText-pContainer">
+              <p>
+                Apoyamos a las organizaciones sociales para que alcancen sus
+                objetivos. Ponemos a su disposición una comunidad de voluntarios
+                dispuestos a apoyarlas en sus necesidades.
+              </p>
+              <p>
+                Equipos de voluntarios por empresas dispuestos a potenciar tu
+                impacto en la sociedad.
+              </p>
+            </div>
+          </div>
+          <img
+            src="./Materiales/voluntariado.jpg"
+            alt="Grupo de personas en una oficina"
+            class="solutionsSubContainerImg"
+          />
+        </div>
+      </div>
+
+      <div class="servicesContainer">
+        <div class="servicesContainerText">
+          <h2>Encuentra las mejores oportunidades</h2>
+          <div class="servicesContainerText-pContainer">
+            <p>
+              La plataforma cuenta con gran variedad de proyectos locales
+              (sociales, educativos y medioambientales) donde encontrarás el que
+              mayor se adapte a la experiencia que estás buscando.
+            </p>
+            <p>
+              Te ayudamos en la coordinación con la organización de forma simple
+              y rápida.
+            </p>
+          </div>
+        </div>
+
+        <div class="servicesContainerCards">
+          <div
+            class="servicesContainerCards-cardStyle servicesContainerCardsRedCard"
+          >
+            <img
+              src="./Materiales/icono-mano.png"
+              alt="Mano levantada"
+              class="servicesContainerRedCardLeftImg"
+            />
+            <img
+              src="./Materiales/icono-mas.png"
+              alt="Mano sosteniendo corazón"
+              class="servicesContainerCardsAddImg"
+            />
+            <div class="servicesCardH3Container">
+              <h3>Ser Voluntario</h3>
+            </div>
+          </div>
+          <div
+            class="servicesContainerCards-cardStyle servicesContainerCardsYellowCard"
+          >
+            <img
+              src="./Materiales/icono-mano-corazon.png"
+              alt="Mano levantada"
+              class="servicesContainerCardsLeftImg"
+            />
+            <img
+              src="./Materiales/icono-mas.png"
+              alt="Mano sosteniendo corazón"
+              class="servicesContainerCardsAddImg"
+            />
+            <div class="servicesCardH3Container">
+              <h3>Donar</h3>
+            </div>
+          </div>
+          <div
+            class="servicesContainerCards-cardStyle servicesContainerCardsGreenCard"
+          >
+            <img
+              src="./Materiales/icono-reciclar.png"
+              alt="Mano levantada"
+              class="servicesContainerCardsLeftImg"
+            />
+            <img
+              src="./Materiales/icono-mas.png"
+              alt="Mano sosteniendo corazón"
+              class="servicesContainerCardsAddImg"
+            />
+            <div class="servicesCardH3Container">
+              <h3>Reciclar</h3>
+            </div>
+          </div>
+          <div
+            class="servicesContainerCards-cardStyle servicesContainerCardsBlueCard"
+          >
+            <img
+              src="./Materiales/icono-maletin.png"
+              alt="Mano levantada"
+              class="servicesContainerCardsLeftImg"
+            />
+            <img
+              src="./Materiales/icono-mas.png"
+              alt="Mano sosteniendo corazón"
+              class="servicesContainerCardsAddImg"
+            />
+            <div class="servicesCardH3Container">
+              <h3>Lllamadas laborales</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="newsSection" class="newsContainer">
+        <div class="newsContainer-text">
+          <h2>Noticias</h2>
+          <a href="link-to-seeAll" target="_blank"
+            ><span class="seeAll-link">Ver todas</span></a
+          >
+        </div>
+        <div class="cardsCarousel">
+          <img
+            src="./Materiales/carouselArrow.png"
+            alt="Flecha"
+            class="carousel-leftArrow"
+            id="prevSlideArrow"
+          />
+          <div id="cardsSlideContent" class="cardsSlideContent">
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/carol-magalhaes-N-JBDesn3j8-unsplash.jpg"
+                  alt="Personas con perros en un parque"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>ANIMALES</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>4 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>Fundapapas abre nuevo centro</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      El nuevo centro estará ubicado dentro del predio municipal
+                      Parque Rivera. La inauguración de centro contará con la
+                      presencia de la intendenta Carolina...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/ralph-ravi-kayden-VoI2jd75M6Q-unsplash.jpg"
+                  alt="Construccion"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>URUGUAY</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>4 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>DIRECTV y TECHO inauguraron un espacio deportivo</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      Los vecinos del lugar recibieron con alegría la
+                      concreación de este proyecto, que busca promover la
+                      socializacón y la actividad física...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/national-cancer-institute-c6rgP7K5rXc-unsplash.jpg"
+                  alt="Médicos"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>VOLUNTARIADO</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>3 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>Jornada de voluntarios</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      Se realizó una nueva jornada de voluntarios Remar. El
+                      encuentro tuvo parte en el departamento de montevideo y
+                      contó...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/brett-jordan-IdbZsWeenvw-unsplash.jpg"
+                  alt="Construccion"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>URUGUAY</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>5 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>Lanzamiento del plan Tu Techo</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      Techo Uruguay informó su nuevo plan de acción para els
+                      egundo semestre del año...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="cardsSlideContent" class="cardsSlideContent">
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/carol-magalhaes-N-JBDesn3j8-unsplash.jpg"
+                  alt="Personas con perros en un parque"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>ANIMAL</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>4 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>Fundapapas abre nuevo centro</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      El nuevo centro estará ubicado dentro del predio municipal
+                      Parque Rivera. La inauguración de centro contará con la
+                      presencia de la intendenta Carolina...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/ralph-ravi-kayden-VoI2jd75M6Q-unsplash.jpg"
+                  alt="Construccion"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>UY</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>4 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>DIRECTV y TECHO inauguraron un espacio deportivo</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      Los vecinos del lugar recibieron con alegría la
+                      concreación de este proyecto, que busca promover la
+                      socializacón y la actividad física...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/national-cancer-institute-c6rgP7K5rXc-unsplash.jpg"
+                  alt="Médicos"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>VOLU</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>3 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>Jornada de voluntarios</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      Se realizó una nueva jornada de voluntarios Remar. El
+                      encuentro tuvo parte en el departamento de montevideo y
+                      contó...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="card">
+              <div class="card-imgCategoryContainer">
+                <img
+                  src="./Materiales/News Image/brett-jordan-IdbZsWeenvw-unsplash.jpg"
+                  alt="Construccion"
+                  class="card-imgCategoryContainer-img"
+                />
+                <span>URU</span>
+              </div>
+              <div class="card-time-info-seeMore-container">
+                <div class="card-timeBarInfo">
+                  <div class="card-timeBarInfo-date">
+                    <img
+                      src="./Materiales/icono-calendario.png"
+                      alt="Calendario"
+                    />
+                    <span>10/08/2021</span>
+                  </div>
+                  <div class="card-timeBarInfo-pusblishedTime">
+                    <img src="./Materiales/icono-reloj.png" alt="Reloj" />
+                    <span>5 min</span>
+                  </div>
+                </div>
+                <div class="card-h3-p-container">
+                  <div class="card-h3-container">
+                    <h3>Lanzamiento del plan Tu Techo</h3>
+                  </div>
+                  <div class="card-p-container">
+                    <p>
+                      Techo Uruguay informó su nuevo plan de acción para els
+                      egundo semestre del año...
+                    </p>
+                  </div>
+                </div>
+                <div class="card-seeMoreButton-container">
+                  <button>
+                    <img src="./Materiales/icono-flecha.png" alt="Flecha" />
+                    <span>ver más</span>
+                  </button>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <img
+            src="./Materiales/carouselArrow.png"
+            alt="Flecha"
+            class="carousel-rightArrow"
+            id="nextSlideArrow"
+          />
+          <div class="dotsContainer">
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <div id="helpSection" class="contactsContainer">
+        <img
+          src="./Materiales/laptop-escritorio.jpg"
+          alt="Laptop sobre una mesa"
+        />
+        <form>
+          <h2>Contacto</h2>
+          <div class="contactsContainer-inputsContainer">
+            <div class="contactsContainer-inputsContainer-txtEmail">
+              <label for="nombre"><b>Nombre</b></label>
+              <input
+                id="inputName"
+                type="text"
+                placeholder="Ingrese su nombre"
+                required
+              />
+              <label for="e-mail"><b>E-mail</b></label>
+              <input
+                id="inputEmail"
+                type="email"
+                placeholder="Ingrese su email"
+                required
+              />
+              <span id="emailErrorMessage"></span>
+            </div>
+            <div class="contactsContainer-inputsContainer-msg">
+              <label for="msg"><b>Mensaje</b></label>
+              <textarea
+                type="text"
+                placeholder="Deje un mensaje"
+                maxlength="300"
+                required
+                id="message"
+              ></textarea>
+              <div id="characterCounterContainer">
+                <span id="typedCharacters">0</span>
+                <span>/</span>
+                <span id="maximumCharacters">300</span>
+              </div>
+            </div>
+          </div>
+          <button type="submit"><span>ENVIAR</span></button>
+        </form>
+      </div>
+
+      <footer>
+        <hr />
+        <div class="footerContainer">
+          <div class="footerContainer-logo-list-container">
+            <img src="./Materiales/logo-blanco.png" alt="Logo de Nexos" />
+            <ul>
+              <li><b>Novedades</b></li>
+              <li>
+                <a href="#newsSection"><b>Noticias</b></a>
+              </li>
+              <li>
+                <a href="#helpSection"><b>Contacto</b></a>
+              </li>
+              <li><b>Términos y condiciones</b></li>
+            </ul>
+          </div>
+          <div class="footerContainer-socialMediaContainer">
+            <span>Seguinos!</span>
+            <div class="footerContainer-socialMediaContainerImgs">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  src="./Materiales/Social Media Imgs/facebook-logo.png"
+                  alt="Logo de facebook"
+              /></a>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><img
+                  src="./Materiales/Social Media Imgs/Twitter-logo.png"
+                  alt="Logo de twitter"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="./Materiales/Social Media Imgs/Instagram-Logo.png"
+                  alt="Logo de instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
